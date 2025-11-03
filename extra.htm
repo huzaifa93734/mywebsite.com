@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+.product {
+  text-align: center;
+  margin-top: 50px;
+  position: absolute;
+  top: 30%;
+  left: 0%;
+   width: 230px;
+  height: 230px;
+}
+
+.product img {
+  width: 230px;
+  height: 230px;
+  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.colors {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+   position: absolute;
+  top: 150%;
+  left: 10%;
+}
+
+.color-box {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.color-box:hover {
+  transform: scale(1.2);
+  border-color: black;
+}
+
+
+
+.product1 {
+  text-align: center;
+  margin-top: 50px;
+  position: absolute;
+  top: 0%;
+  left: 30%;
+  width: 230px;
+  height: 230px;
+}
+
+.product1 img{
+  width: 230px;
+  height: 230px;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.colors1{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+   position: absolute;
+  top: 150%;
+  left: 10%;
+}
+
+.color-box1{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.color-box1:hover {
+  transform: scale(1.2);
+  border-color: black;
+}
+
+
+
+
+#cc{
+  width: 163px;
+  height: 35px;
+    border: 1px solid #c11515;
+    text-align: center;
+    padding-top: 10px;
+position: absolute;
+left: 70%;
+top: 30%;
+}
+
+.link{
+
+  text-decoration: none;
+
+  display: none;
+   width: 160px;
+  height: 40px;
+    border: 2px solid #c11515;
+    color: black;
+
+}
+select{
+  width: 200px;
+  height: 40px;
+}
+
+
+#aa{
+
+  text-decoration: none;
+
+  display: none;
+   width: 160px;
+  height: 40px;
+    border: 2px solid #c11515;
+    margin-top: -10px;
+
+}
+#cc:hover .link{
+display: block;
+
+}
+    </style>
+</head>
+<body>
+ <div class="product">
+  <H2 id="price">12</H2>
+  <img id="mainImage" src="IMAGES/download (2).jpeg" alt="Product">
+
+  <div class="colors">
+ 
+    <div class="color-box" id="blue" data-image="IMAGES/download (3).jpeg"data-price="56" style="background-color: black;"></div>
+    <div class="color-box" id="blue" data-image="IMAGES/download (3).jpeg" data-price="" style="background-color: brown;"></div>
+    <div class="color-box" id="green" data-image="IMAGES/download (3).jpeg" data-price="66" style="background-color:red;"></div>
+
+</div>
+</div>
+
+<div class="product1">
+  <img id="mainImage1" src="IMAGES/download (6).jpeg" alt="Product">
+
+  <div class="colors1">
+  
+     <H2 id="price1">12</H2>
+
+    <div class="color-box1" id="blue" data-image="IMAGES/download (3).jpeg" style="background-color: aqua;"></div>
+    <div class="color-box1" id="green" data-image="IMAGES/download (3).jpeg"  style="background-color:green;"></div>
+
+    <div class="color-box1" id="red" data-image="IMAGES/download (5).jpeg"  data-price="₹2899"  style="background-color:   red;"></div>
+  
+
+  </div>
+</div>
+
+
+
+<select onchange="location = this.value;">
+  <option value="">Select a Page</option>
+  <option value="page1.html">Page 1</option>
+  <option value="">Page 2 </option>
+  <option value="#section3">Section 3 </option>
+</select>
+
+
+
+   <script>
+ 
+  const colorBoxes = document.querySelectorAll('.color-box');
+  const mainImage = document.getElementById('mainImage');
+  const priceTag = document.getElementById('price');
+
+
+  colorBoxes.forEach(box => {
+    box.addEventListener('click', () => {
+      const newImage = box.getAttribute('data-image');
+const newPrice = box.getAttribute('data-price');
+
+      priceTag.textContent = ` ${newPrice}`;
+      // Smooth transition
+      mainImage.style.opacity = 0;
+      setTimeout(() => {
+        mainImage.src = newImage;
+        mainImage.style.opacity = 1;
+      }, 300);
+    });
+  });
+
+
+   const colorBoxes1 = document.querySelectorAll('.color-box1');
+  const mainImage1 = document.getElementById('mainImage1');
+  const priceTag1 = document.getElementById('price');
+
+  colorBoxes1.forEach(box => {
+    box.addEventListener('click', () => {
+      const newImage1 = box.getAttribute('data-image');
+      const newPrice1 = box.getAttribute('data-price');
+
+      priceTag1.textContent = ` ${newPrice1}`;
+
+
+      // Smooth transition
+      mainImage1.style.opacity = 0;
+      setTimeout(() => {
+        mainImage1.src = newImage1;
+        mainImage1.style.opacity = 1;
+      }, 300);
+
+
+   
+    });
+  });
+ 
+</script>
+
+</body>
+</html>

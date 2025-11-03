@@ -1,0 +1,1058 @@
+#nav{
+    background-color: skyblue;
+    height: 90px;
+    width: 100%;
+}
+#e:hover{
+  color: blue;
+ transform: scale(1.2);
+}
+#w:hover{
+  color: blue;
+ transform: scale(1.2);
+}
+#m:hover{
+  color: blue;
+ transform: scale(1.2);
+}#ac:hover{
+  color: blue;
+ transform: scale(1.2);
+}
+#ab:hover{
+  color: blue;
+ transform: scale(1.2);
+}
+#c:hover{
+  color: blue;
+ transform: scale(1.2);
+}
+#o:hover{
+  color: blue;
+ transform: scale(1.2);
+}
+#logo {
+  color: white;
+    text-shadow: 2px 2px 4px black;
+    text-decoration: none;
+    font-size: 80px;
+    position: absolute;
+    left: 2%;
+    top: 0%;
+   
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -12px; 
+}
+#e{
+    color: white;
+    text-shadow: 2px 2px 4px gray;
+    text-decoration: none;
+    font-size: larger;
+    position: absolute;
+    left: 15%;
+    top: 5%;
+}
+#w{
+    color: white;
+    text-shadow: 2px 2px 4px gray;
+    text-decoration: none;
+    font-size: larger;
+    position: absolute;
+    left: 27%;
+    top: 5%;
+}
+#m{
+    color: white;
+    text-shadow: 2px 2px 4px gray;
+    text-decoration: none;
+    font-size: larger;
+    position: absolute;
+    left: 35%;
+    top: 5%;
+}
+#ac{
+    color: white;
+    text-shadow: 2px 2px 4px gray;
+    text-decoration: none;
+    font-size: larger;
+    position: absolute;
+    left: 40%;
+    top: 5%;
+}
+#ab{
+    color: white;
+    text-shadow: 2px 2px 4px gray;
+    text-decoration: none;
+    font-size: larger;
+    position: absolute;
+    left: 68%;
+    top: 5%;
+}
+#c{
+    color: white;
+    text-shadow: 2px 2px 4px gray;
+    text-decoration: none;
+    font-size: larger;
+    position: absolute;
+    left: 74%;
+    top: 5%;
+}
+
+#o{
+    color: white;
+    text-shadow: 2px 2px 4px gray;
+    text-decoration: none;
+    font-size: larger;
+    position: absolute;
+    left: 85%;
+    top: 5%;
+}
+#b{
+
+    height: 40px;
+
+width: 40px;
+border-radius: 50%;
+background-image: url(IMAGES/download\ \(7\).png);
+background-size: cover;
+background-position: center;
+position: absolute;
+    left: 88%;
+    top: 4%;
+}
+#a{
+
+    height: 40px;
+
+width: 40px;
+border-radius: 50%;
+background-image: url(IMAGES/men.jpeg);
+background-size: cover;
+background-position: center;
+position: absolute;
+    left: 92%;
+    top: 4%;
+}
+#bb
+{
+    background-color: white;
+    color: black;
+     height: 19px;
+
+width: 19px;
+padding-left: 4px;
+padding-bottom: 6px;
+padding-top: -3px;
+border-radius: 50%;
+    position: absolute;
+    left: 90%;
+    top: 3%;
+    font-size: x-large;
+}
+#page1{
+    background-color: skyblue;
+    height: 150%;
+    width: 75%;
+    background-image: url(IMAGES/abstract\ \(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+     position: absolute;
+    left: 25%;
+    top: 23%;
+}
+#h1{
+
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    color: black;
+    font-size: medium;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#H{
+    position: absolute;
+    top: 3%;
+    left: 10%;
+    color: black;
+    font-size: 60PX;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#h12{
+    position: absolute;
+    top: 19%;
+    left: 10%;
+    color: black;
+    font-size: medium;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+#blue{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    
+  box-shadow: 2PX 2PX 8PX 2px blue;
+    border-radius: 50%;
+    left: 10%;
+}
+#green{
+    height: 20px;
+    width: 20px;
+    background-color: greenyellow;
+     box-shadow: 2PX 2PX 8PX 2px green;
+    border-radius: 50%;
+   
+}
+
+
+#red{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+  box-shadow: 2PX 2PX 8PX 2px red;
+    border-radius: 50%;
+    border-radius: 50%;
+    
+}
+#orange{
+    height: 20px;
+    width: 20px;
+    background-color: orangered;
+  box-shadow: 2PX 2PX 8PX 2px orangered;
+    border-radius: 50%;
+    border-radius: 50%;
+    
+}
+#black{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+  box-shadow: 2PX 2PX 8PX 2px black;
+    border-radius: 50%;
+    border-radius: 50%;
+    
+}
+#brown{
+    height: 20px;
+    width: 20px;
+    background-color: brown;
+  box-shadow: 2PX 2PX 8PX 2px brown;
+    border-radius: 50%;
+    border-radius: 50%;
+    
+}
+#aqua{
+    height: 20px;
+    width: 20px;
+    background-color: aqua;
+  box-shadow: 2PX 2PX 8PX 2px aqua;
+    border-radius: 50%;
+    border-radius: 50%;
+    
+}
+#purple{
+    height: 20px;
+    width: 20px;
+    background-color: purple;
+  box-shadow: 2PX 2PX 8PX 2px purple;
+    border-radius: 50%;
+    border-radius: 50%;
+    
+}
+#img1{
+    height: 230px;
+    width: 230px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    border-radius: 0px;
+ background-color: aliceblue;
+ animation: all1 3s infinite ease-in-out;
+  background-image: url(IMAGES/product-hoodie3-600x600.jpg);
+  background-position: center;
+  background-size: cover;
+   box-shadow: 1px 1px 8px 2px gray;
+}
+#img2{
+    height: 230px;
+    width: 230px;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    border-radius: 0px;
+ background-color: aliceblue;
+ animation: all 3s infinite ease-in-out;
+  background-image: url(IMAGES/product-hoodie4.jpg-600x600.jpg);
+  background-position: center;
+  background-size: cover;
+   box-shadow: 1px 1px 8px 2px gray;
+}
+
+select{
+  width: 200px;
+  height: 40px;
+   position: absolute;
+    top: 17%;
+    left: 70%;
+     box-shadow: 1px 1px 8px 2px gray;
+}
+
+@keyframes all{
+     
+    0%{transform: translatey(-5%);}
+    50%{transform: translatey(0%);}
+    100%{transform:  translatey(5%);}
+}
+@keyframes all1{
+     
+    0%{transform: translatey(5%);}
+    50%{transform: translatey(0%);}
+    100%{transform:  translatey(-5%);}
+}
+.h2{
+    position: absolute;
+    top: 105%;
+    left: 10%;
+    color:black;
+    font-size: large;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.h3{
+    position: absolute;
+    top: 115%;
+    left: 10%;
+    color: gray;
+    font-size: medium;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+opacity: 0.7;
+}
+.H4{
+    position: absolute;
+    top: 125%;
+    left: 10%;
+    color: black;
+    font-size: medium;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.stars{
+    position: absolute;
+    top: 140%;
+    left: 10%;
+    font-size: 20px;
+    color: gold;
+    text-shadow: 2px 4px 2px gold;
+}
+.supimage{
+    height: 30px;
+    width: 30px;
+    background-image: url(IMAGES/download\ \(7\).png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+}
+#page2{
+    background-color: skyblue;
+    height: 300%;
+    width: 22%;
+    background-image: url(IMAGES/abstract\ \(2\).jpeg);
+    background-size: cover;
+    background-position: center;
+      position: absolute;
+    left: 1%;
+    top: 23%;
+}
+h2{
+    position: absolute;
+    top: 12%;
+    left: 3%;
+    color: black;
+    font-size: xx-large;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#h2{
+    position: absolute;
+    top: 18%;
+    left: 3%;
+    color: black;
+    font-size: medium;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+#h21{
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    color: black;
+    font-size: medium;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+#h22{
+    position: absolute;
+    top: 22%;
+    left: 3%;
+    color:black;
+    font-size: medium;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+#h51{
+    position: absolute;
+    top: 24%;
+    left: 3%;
+    color: black;
+    font-size: xx-large;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+
+
+#div1{
+    background-color: white;
+    height: 150px;
+    width: 90%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    border-radius: 0px;
+}
+#div2{
+    background-color: white;
+    height: 150px;
+    width: 90%;
+    position: absolute;
+    top: 39%;
+    left: 5%;
+    border-radius: 0px;
+}
+#div3{
+    background-color: white;
+    height: 150px;
+    width: 90%;
+    position: absolute;
+    top: 48%;
+    left: 5%;
+    border-radius: 0px;
+}
+#div4{
+    background-color: white;
+    height: 150px;
+    width: 90%;
+    position: absolute;
+    top: 57%;
+    left: 5%;
+    border-radius: 0px;
+}
+#div5{
+    background-color: white;
+    height: 150px;
+    width: 90%;
+    position: absolute;
+    top: 66%;
+    left: 5%;
+    border-radius: 0px;
+}
+.box{
+    height: 60px;
+    width: 60px;
+    background-color: skyblue;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    border-radius: 0px;
+    background-image: url(IMAGES/sports-shoe1-600x600.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box1{
+    height: 60px;
+    width: 60px;
+    background-color: skyblue;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    border-radius: 0px;
+    background-image: url(IMAGES/product-hoodie4.jpg-600x600.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box2{
+    height: 60px;
+    width: 60px;
+    background-color: skyblue;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    border-radius: 0px;
+    background-image: url(IMAGES/product-w-jeans1-600x600.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box3{
+    height: 60px;
+    width: 60px;
+    background-color: skyblue;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    border-radius: 0px;
+    background-image: url(IMAGES/sports-shoe2-600x600.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box4{
+    height: 60px;
+    width: 60px;
+    background-color: skyblue;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    border-radius: 0px;
+    background-image: url(IMAGES/tshirt5-300x300.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hr{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    width: 90%;
+    border: 1px solid gray;
+    opacity: 0.5;
+}
+.h21{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    color: black;
+    font-size:medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.h41{
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    color: black;
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.stars1{
+    position: absolute;
+    top:45%;
+    left: 30%;
+    font-size: 20px;
+    color: gold;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+#qqqqq{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    color: black;
+    background-color: white;
+    font-size: large;
+    text-decoration: none;
+     height: 40px;
+    width: 5%;
+    text-align: center;
+}
+#qq{
+    position: absolute;
+    top: 90%;
+    left: 16%;
+    color: white;
+    background-color: black;
+    font-size: large;
+    text-decoration: none;
+     height: 40px;
+       text-align: center;
+    width: 5%;
+}
+#page3{
+    background-color: lightgrey;
+    height: 20%;
+    width: 100%;
+      position: absolute;
+    left: 0%;
+    top: 329%;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+#h19{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#page7{
+
+    height: 450px;
+width: 100%;
+background-color: white;
+position: absolute;
+top: 350%;
+}
+#q{
+    height: 350px;
+    width: 350px;
+   
+    border-radius: 10%;
+   background-color: skyblue;
+    position: absolute;
+    top: 10%;
+        left: 1%;
+              box-shadow: 2PX 2PX 4PX black;
+}
+#q1{
+    height: 350px;
+    width: 250px;
+     background-color: skyblue;
+      box-shadow: 2PX 2PX 4PX black;
+         border-radius: 10%;
+
+    position: absolute;
+    top: 10%;
+    left: 32%;
+}
+#q2{
+    height: 350px;
+    width: 250px;
+       background-color: skyblue;
+         border-radius: 10%;
+               box-shadow: 2PX 2PX 4PX black;
+  
+    position: absolute;
+    top: 10%;
+    left: 53%;
+}
+#q3{
+    height: 350px;
+    width: 300px;
+      background-color: skyblue;
+    
+       border-radius: 10%;
+             box-shadow: 2PX 2PX 4PX black;
+    position: absolute;
+    top: 10%;
+    left: 74%;
+}
+#input{
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+}
+.la{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+      text-shadow: 2px 2px 4px wheat;
+      color:black;
+      position: absolute; 
+    top: 5%;
+    left: 20%;
+}
+.ul{
+    list-style: none ;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+      text-shadow: 2px 2px 4px black;
+      color:white;
+}
+#footer
+{top: 430%;
+    width: 1px;
+   
+    width: 100%;
+    position: absolute;
+    left: 0%;
+}
+#footr{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 440%;
+    background-color: skyblue;
+}
+#ft{
+  position: absolute;
+    top: 20%;
+    left: 5%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+      text-shadow: 2px 2px 4px black;
+      color:white;
+}
+#fr{
+  position: absolute;
+    top: 20%;
+    left: 75%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+      text-shadow: 2px 2px 4px black;
+      color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================== RESPONSIVE DESIGN ===================== */
+
+/* ====== For Large Tablets (width ≤ 1200px) ====== */
+@media (max-width: 1200px) {
+  #page1, #page2, #page3, #page7, #footer, #footr {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: auto;
+  }
+
+  #img1, #img2, #img3, #img4, #img5, #img6,
+  #img7, #img8, #img9, #img10, #img11, #img12 {
+    width: 30%;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    margin: 10px 1%;
+  }
+
+  #page1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+    height: auto;
+  }
+
+  #page2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 40px 0;
+  }
+
+  #div1, #div2, #div3, #div4, #div5 {
+    position: relative;
+    width: 80%;
+    margin: 15px 0;
+  }
+
+  #q, #q1, #q2, #q3 {
+    width: 40%;
+    margin: 15px;
+    position: relative;
+  }
+}
+
+/* ====== For Tablets (width ≤ 992px) ====== */
+@media (max-width: 992px) {
+  /* Navbar layout */
+  #nav {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  #e, #w, #m, #ac, #ab, #c, #o {
+    position: static;
+    display: inline-block;
+    margin: 8px 10px;
+    font-size: 18px;
+  }
+
+  #a, #b, #bb {
+    position: static;
+    display: none; /* hide small icons */
+  }
+
+  /* Page 1 */
+  #page1 {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 0;
+  }
+
+  #img1, #img2, #img3, #img4, #img5, #img6,
+  #img7, #img8, #img9, #img10, #img11, #img12 {
+    width: 45%;
+    height: 180px;
+    margin: 15px;
+  }
+
+  /* Page 2 */
+  #page2 {
+    display: block;
+    width: 100%;
+    padding: 40px 0;
+    height: auto;
+  }
+
+  #div1, #div2, #div3, #div4, #div5 {
+    width: 90%;
+    height: auto;
+    margin: 15px auto;
+  }
+
+  /* Boxes inside page2 */
+  .box {
+    width: 50px;
+    height: 50px;
+  }
+
+  .h21 {
+    font-size: 16px;
+  }
+
+  /* Page 7 - Footer boxes */
+  #page7 {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 50px 0;
+  }
+
+  #q, #q1, #q2, #q3 {
+    width: 40%;
+    height: 300px;
+    margin: 10px;
+  }
+
+  #input, button {
+    position: static;
+    margin: 10px auto;
+    display: block;
+  }
+
+  /* Footer bottom */
+  #footr {
+    height: auto;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  #ft, #fr {
+    position: static;
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+/* ====== For Mobiles (width ≤ 768px) ====== */
+@media (max-width: 768px) {
+  /* Navbar */
+  #nav {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  #e, #w, #m, #ac, #ab, #c, #o {
+    display: block;
+    margin: 8px 0;
+  }
+
+  #a, #b, #bb {
+    display: none;
+  }
+
+  /* Page 1 */
+  #page1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    left: 0;
+  }
+
+  #img1, #img2, #img3, #img4, #img5, #img6,
+  #img7, #img8, #img9, #img10, #img11, #img12 {
+    width: 90%;
+    height: 180px;
+    margin: 10px 0;
+  }
+
+  /* Page 2 */
+  #page2 {
+    width: 100%;
+    left: 0;
+    text-align: center;
+  }
+
+  #h2, #h21, #h23, #h24, #h25, #h26, #h27, #h28, #h29, #h20 {
+    position: static;
+    display: block;
+    margin: 5px 0;
+  }
+
+  #div1, #div2, #div3, #div4, #div5 {
+    width: 90%;
+    height: auto;
+  }
+
+  /* Page 7 */
+  #page7 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #q, #q1, #q2, #q3 {
+    width: 80%;
+    height: 250px;
+  }
+
+  /* Footer */
+  #footr {
+    text-align: center;
+  }
+
+  #ft, #fr {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
+/* ====== For Small Mobiles (width ≤ 480px) ====== */
+@media (max-width: 480px) {
+  #nav {
+    flex-direction: column;
+  }
+
+  #e, #w, #m, #ac, #ab, #c, #o {
+    font-size: 16px;
+  }
+
+  #page1 {
+    padding: 20px 0;
+  }
+
+  #img1, #img2, #img3, #img4, #img5, #img6,
+  #img7, #img8, #img9, #img10, #img11, #img12 {
+    width: 95%;
+    height: 150px;
+  }
+
+  #page7 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #q, #q1, #q2, #q3 {
+    width: 90%;
+    height: 220px;
+  }
+
+  button {
+    width: 70%;
+  }
+
+  #ft, #fr {
+    font-size: 12px;
+  }
+}
+
+/* ===================== END RESPONSIVE DESIGN ===================== */
+
+/* 🔍 Search Bar Styling */
+#search-container {
+  text-align: center;
+  margin: 30px 0;
+}
+
+#searchInput {
+  width: 180px;
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  z-index: 2;
+  position: absolute;
+  top: 26%;
+  left: 5%;}
+
+#searchInput:focus {
+  border-color: black;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+/* Responsive for mobile screens */
+@media (max-width: 600px) {
+  #searchInput {
+    width: 80%;
+    font-size: 15px;
+  }
+}

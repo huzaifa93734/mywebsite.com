@@ -1,0 +1,806 @@
+#nav{
+    background-color: skyblue;
+    height: 70px;
+    width: 100%;
+}
+#e:hover{
+  color: blue;
+ transform: scale(1.2);
+}
+#w:hover{
+  color: blue;
+ transform: scale(1.2);
+}
+#m:hover{
+  color: blue;
+ transform: scale(1.2);
+}#ac:hover{
+  color: blue;
+ transform: scale(1.2);
+}
+#ab:hover{
+  color: blue;
+ transform: scale(1.2);
+}
+#c:hover{
+  color: blue;
+ transform: scale(1.2);
+}
+#o:hover{
+  color: blue;
+ transform: scale(1.2);
+}
+
+
+#logo {
+  color: white;
+    text-shadow: 2px 2px 4px black;
+    text-decoration: none;
+    font-size: 80px;
+    position: absolute;
+    left: 2%;
+    top: 0%;
+   
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -12px; 
+}
+#e{
+    color: white;
+    text-shadow: 2px 2px 4px gray;
+    text-decoration: none;
+    font-size: larger;
+    position: absolute;
+    left: 15%;
+    top: 5%;
+}
+#w{
+    color: white;
+    text-shadow: 2px 2px 4px gray;
+    text-decoration: none;
+    font-size: larger;
+    position: absolute;
+    left: 27%;
+    top: 5%;
+}
+#m{
+    color: white;
+    text-shadow: 2px 2px 4px gray;
+    text-decoration: none;
+    font-size: larger;
+    position: absolute;
+    left: 35%;
+    top: 5%;
+}
+#ac{
+    color: white;
+    text-shadow: 2px 2px 4px gray;
+    text-decoration: none;
+    font-size: larger;
+    position: absolute;
+    left: 40%;
+    top: 5%;
+}
+#ab{
+    color: white;
+    text-shadow: 2px 2px 4px gray;
+    text-decoration: none;
+    font-size: larger;
+    position: absolute;
+    left: 68%;
+    top: 5%;
+}
+#c{
+    color: white;
+    text-shadow: 2px 2px 4px gray;
+    text-decoration: none;
+    font-size: larger;
+    position: absolute;
+    left: 74%;
+    top: 5%;
+}
+
+#o{
+    color: white;
+    text-shadow: 2px 2px 4px gray;
+    text-decoration: none;
+    font-size: larger;
+    position: absolute;
+    left: 85%;
+    top: 5%;
+}
+#b{
+
+    height: 40px;
+
+width: 40px;
+border-radius: 50%;
+background-image: url(IMAGES/download\ \(7\).png);
+background-size: cover;
+background-position: center;
+position: absolute;
+    left: 88%;
+    top: 4%;
+}
+#a{
+
+    height: 40px;
+
+width: 40px;
+border-radius: 50%;
+background-image: url(IMAGES/men.jpeg);
+background-size: cover;
+background-position: center;
+position: absolute;
+    left: 92%;
+    top: 4%;
+}
+#bb
+{
+    background-color: white;
+    color: black;
+     height: 19px;
+
+width: 19px;
+padding-left: 4px;
+padding-bottom: 6px;
+padding-top: -3px;
+border-radius: 50%;
+    position: absolute;
+    left: 90%;
+    top: 3%;
+    font-size: x-large;
+}
+#page1{
+    height: 400px;
+    width: 100%;
+   
+
+     background-image: url(IMAGES/middle-eastern-entrepreneur-wear-blue-shirt-eyeglasses-against-steel-wall-show-finger-up.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+}
+
+#ABOUT{
+    font-size: 70PX;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2PX 2PX 4PX black;
+  position: absolute;
+    left: 30%;
+    top: 8%;
+}
+#page2
+{
+    height: 700px;
+     width: 100%;
+     position: absolute;
+     top: 80%;
+     background-color: skyblue;
+}
+#h2{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 30px;
+position: absolute;
+top: 20%;
+left: 40%;
+text-shadow: 2px 2px 4px gray;
+}
+#h1{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 40px;
+position: absolute;
+top: 25%;
+left: 38%;
+text-shadow: 2px 2px 4px gray;
+}
+#div2{
+    height: 200px;
+    width: 250px;
+   position: absolute;
+   background-color: white;
+   box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), /* Inner glow */
+              0 0 20px rgba(0, 255, 255, 0.5), /* Medium glow */
+              0 0 30px rgba(0, 255, 255, 0.3); /* Outer glow */
+top: 40%;
+left: 8%; 
+border-radius: 20px;
+}
+#div3{
+    height: 200px;
+    width: 250px;
+   position: absolute;
+   background-color: white;
+   box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), /* Inner glow */
+              0 0 20px rgba(0, 255, 255, 0.5), /* Medium glow */
+              0 0 30px rgba(0, 255, 255, 0.3); /* Outer glow */
+top: 40%;
+left: 30%;
+border-radius: 20px; 
+}#div4{
+    height: 200px;
+    width: 250px;
+   position: absolute;
+   background-color:white;
+   box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), /* Inner glow */
+              0 0 20px rgba(0, 255, 255, 0.5), /* Medium glow */
+              0 0 30px rgba(0, 255, 255, 0.3); /* Outer glow */
+top: 40%;
+left: 52%; 
+border-radius: 20px;
+}#div5{
+    height: 200px;
+    width: 250px;
+   position: absolute;
+   background-color: white;
+   box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), /* Inner glow */
+              0 0 20px rgba(0, 255, 255, 0.5), /* Medium glow */
+              0 0 30px rgba(0, 255, 255, 0.3); /* Outer glow */
+top: 40%;
+left: 74%;
+border-radius: 20px; 
+}
+.all{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px gray;
+    position: absolute; 
+    top: 2%;
+    left: 24%;
+}
+.all1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px gray;
+    position: absolute; 
+    top: 28%;
+    left: 4%;
+    color: grey;
+}
+.all2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    text-shadow: 2px 2px 4px gray;
+    position: absolute; 
+    top: 58%;
+    left: 20%;
+    color: lightskyblue;
+}
+
+#page3{
+    height: 700px;
+     width: 100%;
+     position: absolute;
+     top: 180%;
+     background-color: white;
+}
+#div6{
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    top: 10%;
+    left: 43%;
+    background-color: aliceblue;
+     box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), /* Inner glow */
+              0 0 20px rgba(0, 255, 255, 0.5), /* Medium glow */
+              0 0 30px rgba(0, 255, 255, 0.3); /* Outer glow */
+    border-radius: 20px;
+}
+#h21{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 25%;
+    left: 1%;
+    text-shadow: 2px 2px 4px gray;
+    color: black;
+}
+#h12{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 31%;
+    left:1%;
+    text-shadow: 2px 2px 4px gray;
+    color: black;}
+#h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 45%;
+    left: 1%;
+    text-shadow: 2px 2px 4px gray;
+    color: black;
+}
+
+form{
+    color: black;
+    font-size: 23PX;
+    font-family: 'Times New Roman', Times, serif;
+}
+#name{
+    width: 550PX;
+    height: 40px;
+    position: absolute;
+    top: 10%;
+left: 14%;
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), /* Inner glow */
+              0 0 20px rgba(0, 255, 255, 0.5), /* Medium glow */
+              0 0 30px rgba(0, 255, 255, 0.3); /* Outer glow */
+    border-radius: 20px;
+border: 0px;
+}
+#email{
+    width: 550PX;
+    height: 40px;
+    position: absolute;
+    top: 30%;
+left: 14%;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), /* Inner glow */
+              0 0 20px rgba(0, 255, 255, 0.5), /* Medium glow */
+              0 0 30px rgba(0, 255, 255, 0.3); /* Outer glow */
+    border-radius: 20px;
+    border: 0px;
+
+}#subject{
+    width: 550PX;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+left: 18%;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), /* Inner glow */
+              0 0 20px rgba(0, 255, 255, 0.5), /* Medium glow */
+              0 0 30px rgba(0, 255, 255, 0.3); /* Outer glow */
+    border-radius: 20px;
+    border: 0px;
+    
+
+}
+#message{
+    width: 550PX;
+    height: 40px;
+    position: absolute;
+    top: 70%;
+left: 18%;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), /* Inner glow */
+              0 0 20px rgba(0, 255, 255, 0.5), /* Medium glow */
+              0 0 30px rgba(0, 255, 255, 0.3); /* Outer glow */
+    border-radius: 20px;
+    border: 0px;
+    
+
+}
+#button{
+    position: absolute;
+    top: 83%;
+    left: 40%;
+    border: 0px;
+    height: 50px;
+    width: 120px;
+    background-color: skyblue;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), /* Inner glow */
+              0 0 20px rgba(0, 255, 255, 0.5), /* Medium glow */
+              0 0 30px rgba(0, 255, 255, 0.3); /* Outer glow */
+}
+#mname{
+  
+    position: absolute;
+    top: 10%;
+left: 1%;
+     
+}
+#memail{
+  
+    position: absolute;
+    top: 30%;
+left: 1%;
+     
+}
+
+#msubject{
+  
+    position: absolute;
+    top: 50%;
+left: 1%;
+     
+}
+#mmessage{
+  
+    position: absolute;
+    top: 70%;
+left: 1%;
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#page7{
+
+    height: 450px;
+width: 100%;
+background-color: white;
+position: absolute;
+top: 290%;
+}
+#q{
+    height: 350px;
+    width: 250px;
+   
+    border-radius: 10%;
+   background-color: skyblue;
+    position: absolute;
+    top: 10%;
+        left: 5%;
+              box-shadow: 2PX 2PX 4PX black;
+}
+#q1{
+    height: 350px;
+    width: 250px;
+     background-color: skyblue;
+      box-shadow: 2PX 2PX 4PX black;
+         border-radius: 10%;
+
+    position: absolute;
+    top: 10%;
+    left: 27%;
+}
+#q2{
+    height: 350px;
+    width: 250px;
+       background-color: skyblue;
+         border-radius: 10%;
+               box-shadow: 2PX 2PX 4PX black;
+  
+    position: absolute;
+    top: 10%;
+    left: 49%;
+}
+#q3{
+    height: 350px;
+    width: 250px;
+      background-color: skyblue;
+    
+       border-radius: 10%;
+             box-shadow: 2PX 2PX 4PX black;
+    position: absolute;
+    top: 10%;
+    left: 71%;
+}
+.la{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+      text-shadow: 2px 2px 4px wheat;
+      color:black;
+      position: absolute; 
+    top: 5%;
+    left: 20%;
+}
+.ul{
+    list-style: none ;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+      text-shadow: 2px 2px 4px black;
+      color:white;
+}
+#footer
+{top: 370%;
+    width: 1px;
+   
+    width: 100%;
+    position: absolute;
+    left: 0%;
+}
+#footr{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 380%;
+    background-color: skyblue;
+}
+#ft{
+  position: absolute;
+    top: 20%;
+    left: 5%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+      text-shadow: 2px 2px 4px black;
+      color:white;
+}
+#fr{
+  position: absolute;
+    top: 20%;
+    left: 75%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+      text-shadow: 2px 2px 4px black;
+      color:white;
+}
+
+
+
+
+
+/* ===================== RESPONSIVE DESIGN ===================== */
+
+/* For large tablets & small laptops */
+@media (max-width: 1200px) {
+  #page1, #page2, #page3, #page7 {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: auto;
+  }
+
+  #div2, #div3, #div4, #div5 {
+    width: 40%;
+    height: 200px;
+  }
+}
+
+/* For tablets */
+@media (max-width: 992px) {
+  /* Navbar layout */
+  #nav {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  #e, #w, #m, #ac, #ab, #c, #o {
+    position: static;
+    display: inline-block;
+    margin: 8px 10px;
+    font-size: 18px;
+  }
+
+  #a, #b, #bb {
+    position: static;
+    display: inline-block;
+    margin: 10px 8px;
+  }
+
+  /* Page 1 */
+  #page1 {
+    background-attachment: scroll;
+    position: relative;
+    height: auto;
+    padding: 80px 0;
+  }
+
+  #ABOUT {
+    position: static;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+
+  /* Page 2 */
+  #page2 {
+    height: auto;
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  #h1, #h2 {
+    position: static;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #div2, #div3, #div4, #div5 {
+    position: static;
+    display: inline-block;
+    margin: 15px;
+    width: 40%;
+    height: 220px;
+  }
+
+  /* Page 3 - Form Section */
+  #page3 {
+    position: relative;
+    height: auto;
+    padding: 50px 0;
+  }
+
+  #div6 {
+    position: static;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+  }
+
+  #h21, #h12, #h3 {
+    position: static;
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  #name, #email, #subject, #message {
+    position: static;
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  #button {
+    position: static;
+    margin: 20px auto;
+    display: block;
+  }
+
+  #mname, #memail, #msubject, #mmessage {
+    position: static;
+    display: block;
+    text-align: left;
+    margin: 10px auto;
+    width: 90%;
+  }
+
+  /* Page 7 - Footer boxes */
+  #page7 {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  #q, #q1, #q2, #q3 {
+    position: static;
+    width: 45%;
+    margin: 10px;
+    display: inline-block;
+    height: 300px;
+  }
+
+  .la {
+    position: static;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .ul {
+    position: static;
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  /* Footer */
+  #footr {
+    position: relative;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #ft, #fr {
+    position: static;
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 768px) {
+  /* Navbar */
+  #nav {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+  }
+
+  #e, #w, #m, #ac, #ab, #c, #o {
+    display: block;
+    margin: 8px 0;
+  }
+
+  #a, #b, #bb {
+    display: none;
+  }
+
+  /* Page 1 */
+  #ABOUT {
+    font-size: 38px;
+  }
+
+  /* Page 2 */
+  #div2, #div3, #div4, #div5 {
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+    height: 200px;
+  }
+
+  /* Page 3 - Form */
+  #div6 {
+    width: 95%;
+  }
+
+  #name, #email, #subject, #message {
+    width: 90%;
+    height: 35px;
+  }
+
+  #button {
+    width: 60%;
+    height: 45px;
+  }
+
+  /* Page 7 */
+  #q, #q1, #q2, #q3 {
+    width: 90%;
+    display: block;
+    margin: 20px auto;
+    height: 250px;
+  }
+
+  /* Footer */
+  #ft, #fr {
+    font-size: 14px;
+  }
+}
+
+/* For very small mobile (portrait) */
+@media (max-width: 480px) {
+  #ABOUT {
+    font-size: 32px;
+  }
+
+  #h1 {
+    font-size: 26px;
+  }
+
+  #h2 {
+    font-size: 22px;
+  }
+
+  #div2, #div3, #div4, #div5 {
+    width: 90%;
+    height: 180px;
+  }
+
+  #q, #q1, #q2, #q3 {
+    width: 95%;
+    height: 220px;
+  }
+
+  #button {
+    width: 80%;
+  }
+
+  #ft, #fr {
+    font-size: 12px;
+  }
+}
+
+/* ===================== END RESPONSIVE DESIGN ===================== */

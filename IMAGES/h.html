@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+            <input type="range" id="priceRange" min="0" max="1000" value="500">
+    <span id="currentPriceValue">500</span>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody id="dataTable">
+        <tr data-price="150">
+          <td>Item A</td>
+          <td>$150</td>
+        </tr>
+        
+        <tr data-price="700">
+          <td>Item B</td>
+          <td>$700</td>
+        </tr>
+        <tr data-price="300">
+          <td>Item C</td>
+          <td>$300</td>
+        </tr>
+         <tr data-price="400">
+          <td>Item C</td>
+          <td>$400</td>
+        </tr>
+      </tbody>
+    </table>
+    <script>
+            const priceRangeInput = document.getElementById('priceRange');
+    const currentPriceValueSpan = document.getElementById('currentPriceValue');
+    const dataTableBody = document.getElementById('dataTable');
+    const tableRows = dataTableBody.getElementsByTagName('tr');
+
+    priceRangeInput.addEventListener('input', filterTableRows);
+
+    function filterTableRows() {
+      const selectedPrice = parseInt(priceRangeInput.value);
+      currentPriceValueSpan.textContent = selectedPrice; // Update displayed value
+
+      for (let i = 0; i < tableRows.length; i++) {
+        const row = tableRows[i];
+        const rowPrice = parseInt(row.dataset.price); // Assuming data-price attribute
+
+        if (rowPrice <= selectedPrice) {
+          row.style.display = ''; // Show the row
+        } else {
+          row.style.display = 'none'; // Hide the row
+        }
+      }
+    }
+
+    // Initial filter on page load
+    filterTableRows();
+    </script>
+</body>
+</html>

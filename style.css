@@ -1,0 +1,1405 @@
+body{
+
+    margin:0%;
+    padding: 0%;
+}
+nav{
+    background-color: skyblue;
+    height: 90px;
+    width: 100%;
+    box-shadow: 0px 4px 2px -2px gray;
+
+}
+#logo {
+  color: white;
+    text-shadow: 2px 2px 4px black;
+    text-decoration: none;
+    font-size: 80px;
+    position: absolute;
+    left: 2%;
+    top: 0%;
+   
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -12px; 
+}
+nav a{
+    text-decoration: none;
+}
+a h1{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 70px;
+    position: absolute;
+    top: -8%;
+    left: 2%;
+   font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#EV h2{
+    color: white;
+     text-shadow: 2px 2px 4px #000000;
+    font-size: 20px;
+    position: absolute;
+    top: 4%;
+    left: 9%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+}
+#WM h2{
+    color: white;
+     text-shadow: 2px 2px 4px #000000;
+    font-size: 20px;
+    position: absolute;
+    top: 4%;
+    left: 21%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+}
+#M h2{
+    color: white;
+     text-shadow: 2px 2px 4px #000000;
+    font-size: 20px;
+    position: absolute;
+    top: 4%;
+    left: 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+}#AC h2{
+    color: white;
+     text-shadow: 2px 2px 4px #000000;
+    font-size: 20px;
+    position: absolute;
+    top: 4%;
+    left: 36%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+}
+#AB h3{
+    color: white;
+     text-shadow: 2px 2px 4px #000000;
+ font-size: 15px;
+    position: absolute;
+    top:5%;
+    left: 72%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}#CO h3{
+    color: white;
+     text-shadow: 2px 2px 4px #000000;
+    font-size: 15px;
+    position: absolute;
+    top: 5%;
+    left: 75%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+}#C h3{
+    color: white;
+     text-shadow: 2px 2px 4px #000000;
+    font-size: 15px;
+    position: absolute;
+    top: 5%;
+    left: 84%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+}
+#L img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 7%;
+    left: 91%;
+    border-radius: 20px;
+}
+#L sup{
+    color: black;
+    background-color: white;
+ padding-left: 6PX;
+ padding-top: 3PX;
+ border-radius: 50%;
+
+    font-size: 14px;
+    position: absolute;
+    top: 5.5%;
+    align-items: center;
+    left: 93%;
+    width: 20PX;
+    height: 22PX;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#Li img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 7%;
+    left: 96%;
+    border-radius: 20px;
+}
+#box1 #text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 65px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+
+}
+#box1 #text2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+  
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+     position: absolute;
+    top: 60%;
+    left: 5%;
+   
+}
+#shop{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    height: 50px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#find{
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    height: 50px;
+    width: 120px;
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: aliceblue;
+     box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), /* Inner glow */
+              0 0 20px rgba(0, 255, 255, 0.5), /* Medium glow */
+              0 0 30px rgba(0, 255, 255, 0.3); /* Outer glow */
+
+}
+#box1{
+    height: 500px;
+    width: 100%;
+    background-image: url('IMAGES/middle-eastern-entrepreneur-wear-blue-shirt-eyeglasses-against-steel-wall-show-finger-up.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  
+}
+.slider-container {
+    width: 100%;
+    height: 150px;
+    overflow: hidden; /* This is key to hiding extra images */
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    background-color:skyblue;
+  
+}
+
+.slider-wrapper {
+    display: flex;
+    width: 100%; /* Total width for 4 images (100% * 4) */
+    height: 100%;
+    animation: slide 16s infinite ease-in-out; /* Control the timing */
+}
+
+.slider-wrapper img {
+    width: 40%; /* Each image takes 1/4 of the wrapper's width */
+    height: 100%;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0%); } /* Image 1 visible */
+    10% { transform: translateX(20%); } /* Pause on Image 1 */
+    20% { transform: translateX(-50%); } /* Pause on Image 1 */
+    
+    30% { transform: translateX(50%); } /* Slide to Image 2 */
+    40% { transform: translateX(0%); } /* Pause on Image 2 */
+    
+    50% { transform: translateX(20%); } /* Slide to Image 3 */
+    60% { transform: translatex(0%); } /* Pause on Image 3 */
+    
+    70% { transform: translateX(-50%); } /* Slide to Image 4 */
+    80% { transform: translateX(0%); } /* Pause on Image 4 */
+    
+    90% { transform: translateX(-50%); } 
+    100% { transform: translateX(100%); }
+    /* Return to Image 1 */
+}
+#box2{
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10%;
+}
+#image1{
+    height: 500px;
+    width: 350px;
+ border-radius: 10%;
+background-image: url(IMAGES/download\ \(3\).jpeg);
+
+background-size: cover;
+background-position: center;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), /* Inner glow */
+              0 0 20px rgba(0, 255, 255, 0.5), /* Medium glow */
+              0 0 30px rgba(0, 255, 255, 0.3); /* Outer glow */
+
+    position: absolute;
+     border-radius: 10%;
+    top: 140%;  
+    left: 5%;
+    border-radius: 0px;
+    animation: img1 3s infinite ease-in-out;
+}
+@keyframes img1{
+     
+    0%{transform: translatey(-5%);}
+    50%{transform: translatey(0%);}
+    100%{transform:  translatey(5%);}
+}
+#i{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: black;
+     text-shadow: 2px 2px 4px white;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+
+}
+.one{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+     text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+    top: 65%;
+    left: 5%;
+}
+#button{
+    position: absolute;
+    top: 210%;
+    left: 8%;
+    height: 50px;
+    width: 120px;
+      background-color: white;
+    color:black;
+  
+    border: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     animation: img1 3s infinite ease-in-out;
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), /* Inner glow */
+              0 0 20px rgba(0, 255, 255, 0.5), /* Medium glow */
+              0 0 30px rgba(0, 255, 255, 0.3); /* Outer glow */
+}
+
+#image2{
+    height: 500px;
+    width: 350px;
+    border: #000000 1px solid;
+
+    position: absolute;
+    top: 140%;
+    left: 35%;
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), /* Inner glow */
+              0 0 20px rgba(0, 255, 255, 0.5), /* Medium glow */
+              0 0 30px rgba(0, 255, 255, 0.3); /* Outer glow */
+
+    border-radius: 0px;
+    animation: img2 3s infinite ease-in-out;
+    background-image: url(IMAGES/download\ \(5\).jpeg);
+background-size: cover;
+background-position: center;
+opacity: 0.9;
+}
+@keyframes img2{
+     
+    0%{transform: translatey(5%);}
+    50%{transform: translatey(0%);}
+    100%{transform:  translatey(-5%);}
+}
+#button1{
+     box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), /* Inner glow */
+              0 0 20px rgba(0, 255, 255, 0.5), /* Medium glow */
+              0 0 30px rgba(0, 255, 255, 0.3); /* Outer glow */
+    position: absolute;
+    top: 210%;
+    left: 38%;
+    height: 50px;
+    width: 120px;
+    background-color: white;
+    color:black;
+    
+    border: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     animation: img2 3s infinite ease-in-out;
+}
+#image3{
+    height: 500px;
+    width: 350px;
+    position: absolute;
+ 
+
+    top: 140%;
+    left: 65%;
+     border-radius: 10%;
+    border-radius: 0px;
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), /* Inner glow */
+              0 0 20px rgba(0, 255, 255, 0.5), /* Medium glow */
+              0 0 30px rgba(0, 255, 255, 0.3); /* Outer glow */
+
+    animation: img3 3s infinite ease-in-out;
+    background-image: url(IMAGES/download\ \(4\).jpeg);
+background-size: cover;
+background-position: center;
+
+    
+}
+@keyframes img3{
+     
+    0%{transform: translatey(-5%);}
+    50%{transform: translatey(0%);}
+    100%{transform:  translatey(5%);}
+}
+#button2{
+    position: absolute;
+    top: 210%;
+    left: 68%;
+    height: 50px;
+    width: 120px;
+    background-color: #ffffff;
+    color:black;
+     
+    border: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     animation: img3 3s infinite ease-in-out;
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), /* Inner glow */
+              0 0 20px rgba(0, 255, 255, 0.5), /* Medium glow */
+              0 0 30px rgba(0, 255, 255, 0.3); /* Outer glow */
+}
+
+
+#page4{
+    height: 1900px;
+    width: 100%;
+    background-color: skyblue;
+    position: absolute;
+    top: 250%;
+
+}
+#page4 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+#hr{
+    width: 20%;
+    position: absolute;
+    top: 22%;
+    left: 40%;
+    border: 2px solid blue;
+}
+#imag1{
+    height: 200px;
+    width: 200px;
+ 
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    background-image: url(IMAGES/sports-shoe3-600x600.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 1px 8px 2px gray;
+      animation: all1 3s infinite ease-in-out;
+
+}
+#imag2{
+    height: 200px;
+    width: 200px;
+
+    position: absolute;
+    top: 30%;
+    left: 23%;
+   
+ 
+      animation: all 3s infinite ease-in-out;
+}
+#imag3{
+    height: 200px;
+    width: 200px;
+
+    position: absolute;
+    top: 30%;
+    left: 41%;
+      background-image: url(IMAGES/product-m-jeans1-600x600.jpg);
+    background-size: cover;
+    background-position: center;
+       box-shadow: 1px 1px 8px 2px gray;
+         animation: all1 3s infinite ease-in-out;
+}
+
+#imag4{
+    height: 200px;
+    width: 200px;
+  
+    position: absolute;
+    top: 30%;
+    left: 59%;
+      background-image: url(IMAGES/product-w-jeans2-600x600.jpg);
+    background-size: cover;
+    background-position: center;
+       box-shadow: 1px 1px 8px 2px gray;
+         animation: all 3s infinite ease-in-out;
+}#imag5{
+    height: 200px;
+    width: 200px;
+
+    position: absolute;
+    top: 30%;
+    left: 77%;
+      background-image: url(IMAGES/product-w-jeans4-600x600.jpg);
+    background-size: cover;
+    background-position: center;
+       box-shadow: 1px 1px 8px 2px gray;
+      animation: all1 3s infinite ease-in-out;
+    }
+#imag6{
+    height: 200px;
+    width: 200px;
+  
+    position: absolute;
+    top: 55%;
+    left: 5%;
+      background-image: url(IMAGES/product-w-jeans1-600x600.jpg);
+    background-size: cover;
+    background-position: center;
+       box-shadow: 1px 1px 8px 2px gray;
+         animation: all 3s infinite ease-in-out;
+}#imag7{
+    height: 200px;
+    width: 200px;
+
+    position: absolute;
+  top: 55%;
+    left: 23%;
+    
+         animation: all1 3s infinite ease-in-out;
+}#imag8{
+    height: 200px;
+    width: 200px;
+
+    position: absolute;
+    top: 55%;
+    left: 41%;
+   
+         animation: all 3s infinite ease-in-out;
+}#imag9{
+    height: 200px;
+    width: 200px;
+  
+    position: absolute;
+    top: 55%;
+    left: 59%;
+      background-image: url(IMAGES/product-bag1-600x600.jpg);
+    background-size: cover;
+    background-position: center;
+       box-shadow: 1px 1px 8px 2px gray;
+          animation: all1 3s infinite ease-in-out;
+}#imag10{
+    height: 200px;
+    width: 200px;
+  
+    position: absolute;
+    top: 55%;
+    left: 77%;
+    
+          animation: all 3s infinite ease-in-out;
+}
+.stars{
+    position: absolute;
+    top: 170%;
+    left: 5%;
+    font-size: 20px;
+    color: gold;
+    text-shadow: 1px 1px 2px black;
+}
+.stars1{
+    position: absolute;
+    top: 185%;
+    left: 5%;
+    font-size: 20px;
+    color: gold;
+    text-shadow: 1px 1px 2px black;
+}
+@keyframes all{
+     
+    0%{transform: translatey(-5%);}
+    50%{transform: translatey(0%);}
+    100%{transform:  translatey(5%);}
+}
+@keyframes all1{
+     
+    0%{transform: translatey(5%);}
+    50%{transform: translatey(0%);}
+    100%{transform:  translatey(-5%);}
+}
+.h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 124%;
+    font-size: larger;
+    text-shadow: 2px 2px 3px gray;
+}
+.h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 137%;
+    opacity: 0.3;
+    font-size: medium;
+     text-shadow: 2px 2px 3px gray;
+}.h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 146%;
+    font-size: medium;
+     text-shadow: 2px 2px 3px gray;
+}.h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 160%;
+    font-size:x-small ;
+     text-shadow: 2px 2px 3px gray;
+}
+#blue{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 106%;
+  box-shadow: 2PX 2PX 8PX 2px blue;
+    border-radius: 50%;
+    left: 10%;
+}
+#blue1{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 106%;
+  box-shadow: 2PX 2PX 8PX 2px blue;
+    border-radius: 50%;
+    left: 10%;
+}
+#green{
+    height: 20px;
+    width: 20px;
+    background-color: greenyellow;
+     box-shadow: 2PX 2PX 8PX 2px yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 106%;
+    left: 25%;
+}
+#green1{
+    height: 20px;
+    width: 20px;
+    background-color: greenyellow;
+     box-shadow: 2PX 2PX 8PX 2px yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 106%;
+    left: 25%;
+}
+#red{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+  box-shadow: 2PX 2PX 8PX 2px red;
+    border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 106%;
+    left: 40%;
+}
+#red1{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+  box-shadow: 2PX 2PX 8PX 2px red;
+    border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 106%;
+    left: 40%;
+}#red2{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+  box-shadow: 2PX 2PX 8PX 2px red;
+    border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 106%;
+    left: 40%;
+}#red3{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+  box-shadow: 2PX 2PX 8PX 2px red;
+    border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 106%;
+    left: 40%;
+}
+.supimage{
+    height: 30px;
+    width: 30px;
+    background-image: url(IMAGES/download\ \(7\).png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+}
+.h6{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 130%;
+    font-size: larger;
+    text-shadow: 2px 2px 3px gray;
+}
+.h7{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 145%;
+    opacity: 0.3;
+    font-size: medium;
+     text-shadow: 2px 2px 3px gray;
+}.h8{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 155%;
+    font-size: medium;
+     text-shadow: 2px 2px 3px gray;
+}.h9{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 170%;
+    font-size:x-small ;
+     text-shadow: 2px 2px 3px gray;
+}
+#black{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 106%;
+  box-shadow: 2PX 2PX 8PX 2px black;
+    border-radius: 50%;
+    left: 10%;
+}
+#brown{
+    height: 20px;
+    width: 20px;
+    background-color: brown;
+     box-shadow: 2PX 2PX 8PX 2px brown;
+    border-radius: 50%;
+    position: absolute;
+    top: 106%;
+    left: 25%;
+}
+#aqua{
+    height: 20px;
+    width: 20px;
+    background-color: aqua;
+  box-shadow: 2PX 2PX 8PX 2px aqua;
+    border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 106%;
+    left: 10%;
+}
+#green{
+    height: 20px;
+    width: 20px;
+    background-color: greenyellow;
+     box-shadow: 2PX 2PX 8PX 2px yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 106%;
+    left: 25%;
+}
+#orange{
+    height: 20px;
+    width: 20px;
+    background-color: orange;
+  box-shadow: 2PX 2PX 8PX 2px orange;
+    border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 106%;
+    left: 25%;
+}#purple{
+    height: 20px;
+    width: 20px;
+    background-color: purple;
+  box-shadow: 2PX 2PX 8PX 2px purple;
+    border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 106%;
+    left: 55%;
+}
+
+#page5{
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 500%;
+}
+#box3{
+    height: 500px;
+    width: 95%;
+    background-color: skyblue;
+    border-radius: 10%;
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-image: url(IMAGES/photo-handsome-man-black-sunglasses-sports-guy-attractive-male-body-studio-shooting-with-color-filters.jpg );
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+}
+#h{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    text-shadow: 2px 2px 4px #000000;
+}
+#hf{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+     text-shadow: 2px 2px 4px #000000;
+}
+#gh{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+
+    width: 70%;
+     text-shadow: 2px 2px 4px #000000;
+}
+#bh{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 58%;
+    left: 10%;
+     text-shadow: 2px 2px 4px #000000;
+}
+#btn{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    height: 50px;
+    width: 150px;
+    background-color:white;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+
+ box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), /* Inner glow */
+              0 0 20px rgba(0, 255, 255, 0.5), /* Medium glow */
+              0 0 30px rgba(0, 255, 255, 0.3); /* Outer glow */}
+#page6{
+     height: 400px;
+    width: 100%;
+    background-color:white;
+    position: absolute;
+    box-shadow: 2PX2 PX 4PX black;
+    top: 600%;
+}
+#r{
+    height: 300px;
+    width: 280px;
+background-color:skyblue;
+border-radius: 10%;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+     box-shadow: 2px 2px 4px gray;
+}
+#r1{
+    height: 300px;
+    width: 280px;
+background-color:skyblue;
+border-radius: 10%;
+     position: absolute;
+    left: 28%;
+     top: 10%;
+      box-shadow: 2px 2px 4px gray;
+}
+#r2{
+    height: 300px;
+    width: 280px;
+background-color:skyblue;
+border-radius: 10%;
+     position: absolute;
+    left: 51%;
+     top: 10%;
+      box-shadow: 2px 2px 4px gray;
+}
+#r3{
+    height: 300px;
+    width: 280px;
+background-color:skyblue;
+border-radius: 10%;
+     position: absolute;
+    left: 74%;
+     top: 10%;
+      box-shadow: 2px 2px 4px gray;
+}
+#circle{
+    width: 60px;
+    height: 60px;
+ 
+    border-radius: 50%;
+    position: absolute;
+    top: 3%;
+    left: 40%;
+ box-shadow: 2px 2px 4px gray;
+}
+.w{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px whitesmoke;
+    position: absolute; 
+    top: 30%;
+    left: 20%;
+}
+.e{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+      text-shadow: 2px 2px 4px black;
+      color:white;
+      position: absolute; 
+    top: 45%;
+    left: 20%;
+}
+#page7{
+
+    height: 450px;
+width: 100%;
+background-color: white;
+position: absolute;
+top: 660%;
+}
+#q{
+    height: 350px;
+    width: 250px;
+   
+    border-radius: 10%;
+   background-color: skyblue;
+    position: absolute;
+    top: 10%;
+        left: 5%;
+              box-shadow: 2PX 2PX 4PX black;
+}
+#q1{
+    height: 350px;
+    width: 250px;
+     background-color: skyblue;
+      box-shadow: 2PX 2PX 4PX black;
+         border-radius: 10%;
+
+    position: absolute;
+    top: 10%;
+    left: 27%;
+}
+#q2{
+    height: 350px;
+    width: 250px;
+       background-color: skyblue;
+         border-radius: 10%;
+               box-shadow: 2PX 2PX 4PX black;
+  
+    position: absolute;
+    top: 10%;
+    left: 49%;
+}
+#q3{
+    height: 350px;
+    width: 250px;
+      background-color: skyblue;
+    
+       border-radius: 10%;
+             box-shadow: 2PX 2PX 4PX black;
+    position: absolute;
+    top: 10%;
+    left: 71%;
+}
+.la{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+      text-shadow: 2px 2px 4px wheat;
+      color:black;
+      position: absolute; 
+    top: 5%;
+    left: 20%;
+}
+.ul{
+    list-style: none ;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+      text-shadow: 2px 2px 4px black;
+      color:white;
+}
+#footer
+{top: 730%;
+    width: 1px;
+   
+    width: 100%;
+    position: absolute;
+    left: 0%;
+}
+#footr{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 740%;
+    background-color: skyblue;
+}
+#ft{
+  position: absolute;
+    top: 20%;
+    left: 5%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+      text-shadow: 2px 2px 4px black;
+      color:white;
+}
+#fr{
+  position: absolute;
+    top: 20%;
+    left: 75%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+      text-shadow: 2px 2px 4px black;
+      color:white;
+}
+
+
+
+
+
+
+
+/* 🌍 RESPONSIVE DESIGN STARTS HERE */
+
+/* ---------- TABLET (max-width: 1024px) ---------- */
+@media (max-width: 1024px) {
+  nav {
+    height: auto;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  a h1 {
+    font-size: 50px;
+    position: static;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #EV h2, #WM h2, #M h2, #AC h2, #AB h3, #CO h3, #C h3 {
+    position: static;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+  }
+
+  #L img, #Li img {
+    position: static;
+    margin: 10px;
+  }
+
+  #box1 #text {
+    font-size: 45px;
+    top: 20%;
+  }
+
+  #box1 #text2 {
+    font-size: 20px;
+  }
+
+  #shop, #find {
+    position: relative;
+    top: auto;
+    left: auto;
+    margin: 10px;
+  }
+
+  #image1, #image2, #image3 {
+    position: static;
+    display: block;
+    margin: 20px auto;
+  }
+
+  #button, #button1, #button2 {
+    position: static;
+    margin: 20px auto;
+    display: block;
+  }
+
+  #page4 {
+    position: relative;
+    top: auto;
+    padding-bottom: 200px;
+  }
+
+  #imag1, #imag2, #imag3, #imag4, #imag5,
+  #imag6, #imag7, #imag8, #imag9, #imag10 {
+    position: static;
+    display: inline-block;
+    margin: 10px;
+  }
+
+  #page5, #page6, #page7, #footr {
+    position: relative;
+    top: auto;
+  }
+
+  #box3, #r, #r1, #r2, #r3, #q, #q1, #q2, #q3 {
+    position: static;
+    margin: 20px auto;
+  }
+}
+
+/* ---------- MOBILE (max-width: 768px) ---------- */
+@media (max-width: 768px) {
+  a h1 {
+    font-size: 35px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #EV h2, #WM h2, #M h2, #AC h2, #AB h3, #CO h3, #C h3 {
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  #box1 {
+    background-attachment: scroll; /* better for small screens */
+    border-radius: 0;
+  }
+
+  #box1 #text {
+    font-size: 30px;
+    top: 15%;
+  }
+
+  #box1 #text2 {
+    font-size: 18px;
+  }
+
+  #shop, #find {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  #image1, #image2, #image3 {
+    width: 90%;
+    height: 300px;
+  }
+
+  #page4 h1 {
+    font-size: 28px;
+    text-align: center;
+    left: 0;
+  }
+
+  #imag1, #imag2, #imag3, #imag4, #imag5,
+  #imag6, #imag7, #imag8, #imag9, #imag10 {
+    width: 45%;
+    height: 180px;
+  }
+
+  #r, #r1, #r2, #r3, #q, #q1, #q2, #q3 {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  #h, #hf, #gh, #bh {
+    left: 5%;
+    width: 90%;
+  }
+
+  #hf {
+    font-size: 35px;
+  }
+
+  #gh {
+    font-size: 14px;
+  }
+
+  #btn {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  #footr {
+    text-align: center;
+  }
+
+  #ft, #fr {
+    position: static;
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+/* ---------- VERY SMALL (max-width: 480px) ---------- */
+@media (max-width: 480px) {
+  a h1 {
+    font-size: 28px;
+  }
+
+  #box1 #text {
+    font-size: 25px;
+  }
+
+  #box1 #text2 {
+    font-size: 16px;
+  }
+
+  #hf {
+    font-size: 28px;
+  }
+
+  #r, #r1, #r2, #r3, #q, #q1, #q2, #q3 {
+    width: 95%;
+  }
+}
+
+/* 🌍 END OF RESPONSIVE DESIGN */
+
+
+
+
+
+
+
+
+
+
+
+.product {
+  text-align: center;
+  margin-top: 50px;
+  position: absolute;
+  top: -25%;
+  left: 0%;
+  
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.colors {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 0px;
+ 
+}
+
+.color-box {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.color-box:hover {
+  transform: scale(1.2);
+  border-color: black;
+}
+
+
+
+
+
+
+.product1 {
+  text-align: center;
+  margin-top: 50px;
+  position: absolute;
+  top: -25%;
+  left: 0%;
+  
+}
+
+.product1 img{
+  width: 200px;
+  height: 200px;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.colors1{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.color-box1{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.color-box1:hover {
+  transform: scale(1.2);
+  border-color: black;
+}
+
+
+
+
+
+
+
+
+.product2 {
+  text-align: center;
+  margin-top: 50px;
+  position: absolute;
+  top: -25%;
+  left: 0%;
+  
+}
+
+.product2 img {
+  width: 200px;
+  height: 200px;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.colors2 {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.color-box2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.color-box2:hover {
+  transform: scale(1.2);
+  border-color: black;
+}
+
+
+
+
+
+
+
+
+.product3 {
+  text-align: center;
+  margin-top: 50px;
+  position: absolute;
+  top: -25%;
+  left: 0%;
+  
+}
+
+.product3 img {
+  width: 200px;
+  height: 200px;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.colors3 {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.color-box3 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.color-box3:hover {
+  transform: scale(1.2);
+  border-color: black;
+}
